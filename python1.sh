@@ -7,4 +7,5 @@ arr_delay = df[df["Origin"]=='SFO']
 arr_delay.reset_index(drop=True, inplace=True)
 arr_delay["ArrDelay"].head(3).to_csv("first3sfo.csv")
 
+print("This is my script, Pankaj")
 exit()
